@@ -404,3 +404,10 @@ form:hover {
 
     border-radius: 5px;
     }
+   
+    .sans-fond {
+
+    background-color: transparent !important;
+
+    font-style: normal !important;
+    }

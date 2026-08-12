@@ -4,6 +4,7 @@ background-color: skyblue !important;
 h1 {
 color: #006400;
 text-align: center;
+font-style: italic;
 }
 h2 {
 color: #006400;
@@ -41,8 +42,7 @@ a:hover{
 text-decoration: underline;
 }
 nav {
-
-    background-color: #006400;
+background-color: #006400;
 
     padding: 15px;
 
@@ -53,8 +53,7 @@ nav {
 }
 
 nav a {
-
-    display: inline-block;
+display: inline-block;
 
     color: white;
 
@@ -64,27 +63,21 @@ nav a {
 
     padding: 10px 15px;
 
-    border-radius: 5px;
+    border-radius: 8px;
 
     font-weight: bold;
+
+    transition: 0.3s;
 
 }
 
 nav a:hover {
-
-    background-color: green;
+background-color: #32CD32;
 
     color: white;
 
-    text-decoration: none;
+    transform: translateY(-2px);
 }
-    .profil{
-    width: 180px;
-    border-radius: 50%;
-    display:block;
-    margin: 20px auto;
-    border: 4px solid darkgreen;
-    }
     html {
     scroll-behavior:smooth;
     }
@@ -104,7 +97,15 @@ color: darkgreen;
  display: block;
  margin: 20px auto;
  border: 4px solid darkgreen;
- }
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+transition: transform 0.3s;
+}
+
+.profil:hover {
+
+    transform: scale(1.05);
+    }
+ 
  /* Formulaire */
 
 form {
@@ -274,19 +275,6 @@ footer p {
 
 }
 
-#accueil + .profil {
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-
-    transition: transform 0.3s;
-
-}
-
-#accueil + .profil:hover {
-
-    transform: scale(1.05);
-    /* Section bienvenue */
-
 .bienvenue {
 
     background-color: white;
@@ -397,9 +385,19 @@ form:hover {
 
     text-decoration: none;
     }
-    h1, h2 {
+ h2 {
 
-    background-color: yellow;
+    background-color: yellow !important;
+
+    color: #006400;
+
+    padding: 8px;
+
+    border-radius: 5px;
+    }
+  h1, h2, h3 {
+
+    background-color: lightgreen;
 
     padding: 8px;
 

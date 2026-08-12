@@ -411,3 +411,13 @@ form:hover {
 
     font-style: normal !important;
     }
+    ul {
+
+    background-color: transparent !important;
+
+}
+
+table {
+
+    background-color: transparent !important;
+    }

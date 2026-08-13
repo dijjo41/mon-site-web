@@ -408,8 +408,10 @@ form:hover {
     .sans-fond {
 
     background-color: transparent !important;
+    color: black !important;
 
     font-style: normal !important;
+    padding: 0 !important;
     }
     ul {
 

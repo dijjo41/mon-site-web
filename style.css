@@ -175,7 +175,7 @@ form textarea {
 
 form button {
 
-    background-color: darkgreen;
+    background-color: #003366;
 
     color: white;
 
@@ -193,7 +193,7 @@ form button {
 
 form button:hover {
 
-    background-color: green;
+    background-color: #002244;
 }
 footer {
 
